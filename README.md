@@ -11,7 +11,7 @@ archtap is just a small script for this job.
 
 What you should do to make it happen?
 
-* You may mask linux linux-headers linux-docs in /etc/pacman.conf to avoid unnecessary update.
+* You may mask linux linux-headers linux-docs in /etc/pacman.conf (IgnorePkg = ...) to avoid unnecessary update.
 * refresh pacman database as you always do.
 * run archtap if you want some fresh kernel.
 
