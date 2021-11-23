@@ -13,7 +13,7 @@ fi
 read -p "Build kernel[y/N]?" -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]];then
-  ABSROOT=. abs core/linux; cd core/linux
+  asp export linux; cd linux
   echo "Entering $(pwd)"
   makepkg --verifysource
 
